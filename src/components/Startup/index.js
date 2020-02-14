@@ -39,14 +39,6 @@ const Startup = () => {
           </StartupColumn>
         ))}
       </StartupContainer>
-      <Container>
-        <Column>
-          <h2>Interested in working together? </h2>
-          <ContactModal buttonLabel=" LETS CHAT">
-            <Calendly />
-          </ContactModal>
-        </Column>
-      </Container>
     </Root>
   );
 };
