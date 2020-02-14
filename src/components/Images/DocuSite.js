@@ -29,12 +29,13 @@ const Profile = () => {
   return (
     <Img
       style={{
-        height: "42px",
-        width: "auto",
-        marginBottom: "2rem"
+        height: "auto",
+        width: "250px",
+        marginRight: "auto",
+        marginLeft: "auto"
       }}
       objectFit="contain"
-      alt="Docusite Logo"
+      alt="Thinkful Logo"
       fluid={data.placeholderImage.childImageSharp.fluid}
     />
   );

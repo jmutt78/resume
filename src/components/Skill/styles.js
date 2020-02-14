@@ -67,7 +67,7 @@ export const BoxContainer = styled.div`
 `;
 
 export const BoxLeft = styled.div`
-  padding: 70px 45px;
+  padding: 45px;
   display: block;
   flex-basis: 0;
   -webkit-box-flex: 1;
@@ -81,7 +81,7 @@ export const BoxLeft = styled.div`
 `;
 
 export const BoxRight = styled.div`
-  padding: 70px 45px;
+  padding: 45px;
   display: block;
   flex-basis: 0;
   -webkit-box-flex: 1;

@@ -1,11 +1,11 @@
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 
 const Entra = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "entra.png" }) {
+      placeholderImage: file(relativePath: { eq: "msu.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -13,20 +13,22 @@ const Entra = () => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <Img
       style={{
-        height: '42px',
-        width: 'auto',
-        marginBottom: '2rem',
+        height: "auto",
+        width: "130px",
+        marginRight: "auto",
+        marginLeft: "auto",
+        marginTop: "10px"
       }}
       objectFit="contain"
-      alt="Entra Logo"
+      alt="MSU logo"
       fluid={data.placeholderImage.childImageSharp.fluid}
     />
-  )
-}
+  );
+};
 
-export default Entra
+export default Entra;

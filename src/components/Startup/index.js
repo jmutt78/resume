@@ -3,8 +3,8 @@ import React from "react";
 import ContactModal from "./ContactModal";
 import Calendly from "../Calendly";
 
-import DocuSite from "../Images/DocuSite.js";
-import Entra from "../../../assets/entra.svg";
+import DocuSite from "../Images/DocuSite";
+import Entra from "../Images/Entra";
 
 import {
   Root,
@@ -17,33 +17,25 @@ import {
 const Startup = () => {
   const startups = [
     {
-      image: <DocuSite />,
-      title: "DocuSite",
-      body: `An easy to use mobile application for underground construction and civil engineers.`,
-      url: "https://docusites.com/",
-      simple: "www.docusites.com"
+      image: <Entra />,
+      title: "Bachelor of Science in Business Management ",
+      body: `Metropolitan State University, Denver, Colorado `
     },
     {
-      image: <Entra />,
-      title: "Entra",
-      body: `A powerful community of entrepreneurs that help each other learn and grow through a simple Question and Answer forum.`,
-      url: "https://entra.io/",
-      simple: "www.entra.io"
+      image: <DocuSite />,
+      title: "Full Stack Development",
+      body: `Thinkful Bootcamp`
     }
   ];
   return (
     <Root>
-      <h2>Education & Credentials</h2>
+      <h2>Education & Trainning</h2>
       <StartupContainer style={{ width: "80%", paddingTop: "30px" }}>
         {startups.map(({ image, title, body, url, simple }) => (
           <StartupColumn key={title}>
             {image}
-
-            <p>{body}</p>
-
-            <a href={url} target="_blank" rel="noopener noreferrer">
-              {simple}
-            </a>
+            <p style={{ textDecoration: "underline" }}>{title}</p>
+            <p style={{ fontStyle: "italic" }}>{body}</p>
           </StartupColumn>
         ))}
       </StartupContainer>

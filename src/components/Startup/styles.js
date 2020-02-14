@@ -37,9 +37,9 @@ export const StartupColumn = styled.div`
 
 
   p {
-    padding: 15px 30px 0px 30px;
+    padding: 10px 30px 0px 30px;
     max-width: 500px;
-    margin-bottom: .5rem;
+    margin-bottom: 0;
     font-size: 1rem;
   }
   a {
@@ -71,8 +71,8 @@ export const Column = styled.div`
   display: block;
   text-align: center;
   justify-content: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   h2 {
     font-weight: 800;
     margin-bottom: 1.5rem;
