@@ -1,39 +1,40 @@
-import React from 'react'
+import React from "react";
 
-import ContactModal from './ContactModal'
-import Calendly from '../Calendly'
+import ContactModal from "./ContactModal";
+import Calendly from "../Calendly";
 
-import DocuSite from '../../../assets/docusite.svg'
-import Entra from '../../../assets/entra.svg'
+import DocuSite from "../Images/DocuSite.js";
+import Entra from "../../../assets/entra.svg";
 
 import {
   Root,
   StartupContainer,
   StartupColumn,
   Container,
-  Column,
-} from './styles'
+  Column
+} from "./styles";
 
 const Startup = () => {
   const startups = [
     {
       image: <DocuSite />,
-      title: 'DocuSite',
+      title: "DocuSite",
       body: `An easy to use mobile application for underground construction and civil engineers.`,
-      url: 'https://docusites.com/',
-      simple: 'www.docusites.com',
+      url: "https://docusites.com/",
+      simple: "www.docusites.com"
     },
     {
       image: <Entra />,
-      title: 'Entra',
+      title: "Entra",
       body: `A powerful community of entrepreneurs that help each other learn and grow through a simple Question and Answer forum.`,
-      url: 'https://entra.io/',
-      simple: 'www.entra.io',
-    },
-  ]
+      url: "https://entra.io/",
+      simple: "www.entra.io"
+    }
+  ];
   return (
     <Root>
-      <StartupContainer style={{ width: '80%', paddingTop: '30px' }}>
+      <h2>Education & Credentials</h2>
+      <StartupContainer style={{ width: "80%", paddingTop: "30px" }}>
         {startups.map(({ image, title, body, url, simple }) => (
           <StartupColumn key={title}>
             {image}
@@ -55,7 +56,7 @@ const Startup = () => {
         </Column>
       </Container>
     </Root>
-  )
-}
+  );
+};
 
-export default Startup
+export default Startup;

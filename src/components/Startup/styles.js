@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Root = styled.div`
   flex-grow: 1;
@@ -6,8 +6,13 @@ export const Root = styled.div`
   padding-bottom: 2rem;
   flex-direction: column;
   align-items: center;
-  margin-top: -130px;
-`
+
+  border-top: 1px solid #1c0947;
+  h2 {
+    text-align: center;
+    padding-top: 130px;
+  }
+`;
 
 export const StartupContainer = styled.div`
   display: flex;
@@ -15,7 +20,7 @@ export const StartupContainer = styled.div`
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-`
+`;
 
 export const StartupColumn = styled.div`
 
@@ -52,7 +57,7 @@ export const StartupColumn = styled.div`
 }
 
   }
-`
+`;
 
 export const Container = styled.div`
   -webkit-box-flex: 1;
@@ -60,7 +65,7 @@ export const Container = styled.div`
   margin: 0 auto;
   position: relative;
   width: auto;
-`
+`;
 
 export const Column = styled.div`
   display: block;
@@ -74,7 +79,7 @@ export const Column = styled.div`
     line-height: 1.125;
     font-size: 2rem !important;
   }
-`
+`;
 
 export const Button = styled.button`
   position: relative;
@@ -108,4 +113,4 @@ export const Button = styled.button`
   :hover svg {
     stroke-dashoffset: -480;
   }
-`
+`;

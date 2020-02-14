@@ -1,6 +1,6 @@
-import React from 'react'
-import { Root, Column } from './styles'
-import { Container } from '../Intro/styles.js'
+import React from "react";
+import { Root, Column } from "./styles";
+import { Container } from "../Intro/styles.js";
 
 export default () => (
   <Root>
@@ -9,14 +9,16 @@ export default () => (
         <div>
           <h2>Hi, I'm Justin</h2>
           <h4>
-            Entrepreneurship is my passion, and I work to help and connect
-            entrepreneurs. I believe that I was put on this planet for a
-            singular purpose: to help current and aspiring entrepreneurs. I
-            believe our country would be better if we had more people starting
-            and operating businesses.
+            I am a passionate, full-stack web developer striving to create
+            amazing products for customers. Consistently receive high user
+            experience scores for all web development projects, including a 15%
+            increase for DocuSite. 3 years of experience in tech, including 2
+            startup projects. Flexibility is my strength. Over 15 years of
+            experience in business operations management in 3 different
+            industries.
           </h4>
         </div>
       </Column>
     </Container>
   </Root>
-)
+);

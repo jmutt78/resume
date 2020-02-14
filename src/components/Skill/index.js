@@ -14,29 +14,32 @@ export default () => (
             style={{ height: "80px", width: "auto", marginBottom: "20px" }}
           />
           <h3>Full-Stack Developer</h3>
-          <p>I love to create things, and enjoy bringing ideas to life.</p>
 
-          <p className="p-title">Services:</p>
+          <p className="p-title">Stack:</p>
           <ul>
-            <li>Website Development</li>
-            <li>Web Application Development</li>
-            <li>Mobile Application Development</li>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>graphQl</li>
+            <li>Gatsby</li>
+            <li>Next.js</li>
           </ul>
         </BoxLeft>
         <BoxRight>
           <Concept
             style={{ height: "80px", width: "auto", marginBottom: "20px" }}
           />
-          <h3>Entrepreneur</h3>
-          <p>
-            I genuinely care about people and love helping fellow entrepreneurs.
-          </p>
+          <h3>Business</h3>
 
-          <p className="p-title">Experience:</p>
+          <p className="p-title">Expertise:</p>
           <ul>
-            <li>3 years Developer</li>
-            <li>13 Years in Entrepreneurship</li>
-            <li>2 Startups</li>
+            <li>Leadership</li>
+            <li>Operations</li>
+            <li>Flexable</li>
+            <li>Process Improvement</li>
+            <li>Project Management </li>
+            <li>Product Management</li>
           </ul>
         </BoxRight>
       </BoxContainer>

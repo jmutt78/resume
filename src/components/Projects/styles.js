@@ -9,9 +9,12 @@ export const Root = styled.div`
   @media (max-width: 800px) {
     width: 100%;
   }
-  h2 {
-    margin-bottom: 10px;
 
+  h2 {
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    line-height: 1.125;
+    font-size: 2rem !important;
     text-align: center;
   }
 

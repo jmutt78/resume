@@ -1,6 +1,6 @@
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -16,28 +16,28 @@ import Img from 'gatsby-image'
 const Profile = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "docusite.png" }) {
+      placeholderImage: file(relativePath: { eq: "thinkful.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid
           }
         }
       }
     }
-  `)
+  `);
 
   return (
     <Img
       style={{
-        height: '42px',
-        width: 'auto',
-        marginBottom: '2rem',
+        height: "42px",
+        width: "auto",
+        marginBottom: "2rem"
       }}
       objectFit="contain"
       alt="Docusite Logo"
       fluid={data.placeholderImage.childImageSharp.fluid}
     />
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

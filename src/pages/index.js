@@ -8,6 +8,8 @@ import Work from "../components/Work";
 import Projects from "../components/Projects";
 import Transition from "../components/Transition";
 import Startup from "../components/Startup";
+import Exp from "../components/Exp";
+import Edu from "../components/Edu";
 
 import SEO from "../components/seo.js";
 
@@ -17,9 +19,9 @@ const IndexPage = () => (
     <Intro />
     <About />
     <Skill />
-    <Work />
+    <Exp />
     <Projects />
-    <Transition />
+
     <Startup />
   </Layout>
 );

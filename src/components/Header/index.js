@@ -19,12 +19,6 @@ const Header = ({ siteTitle }) => (
           <HeaderModal buttonLabel="LETS CHAT">
             <Calendly />
           </HeaderModal>
-
-          <BlogLink>
-            <Link to="/blog">
-              <h3>BLOG</h3>
-            </Link>
-          </BlogLink>
         </NavLinks>
       </NavFlex>
     </Root>

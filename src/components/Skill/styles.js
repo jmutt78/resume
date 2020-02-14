@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Root = styled.div`
   width: 100%;
@@ -7,15 +7,19 @@ export const Root = styled.div`
   align-items: center;
   padding: 0px 0px 50px 0px;
   margin-top: -130px;
-`
+`;
 
 export const Column = styled.div`
   display: flex;
   text-align: center;
   max-width: 900px;
-  align-self: center;
+
   width: 100%;
 
+h2 {
+  text-align: center;
+  display: block;
+}
 
   li {
     list-style-type: none;
@@ -45,7 +49,7 @@ export const Column = styled.div`
   @media (max-width: 500px) {
       padding: 0px 15px 0px 15px;
   }
-`
+`;
 export const BoxContainer = styled.div`
   background-color: #fff;
   border-radius: 6px;
@@ -53,12 +57,14 @@ export const BoxContainer = styled.div`
   color: #141c3a;
   display: flex;
   padding: 0.5rem;
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
   @media (max-width: 500px) {
     display: grid;
     padding: 0;
   }
-`
+`;
 
 export const BoxLeft = styled.div`
   padding: 70px 45px;
@@ -72,7 +78,7 @@ export const BoxLeft = styled.div`
     border-bottom: 1px solid #e6ecf8;
     border-right: 0px;
   }
-`
+`;
 
 export const BoxRight = styled.div`
   padding: 70px 45px;
@@ -81,4 +87,4 @@ export const BoxRight = styled.div`
   -webkit-box-flex: 1;
   flex-grow: 1;
   flex-shrink: 1;
-`
+`;
