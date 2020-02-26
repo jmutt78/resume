@@ -40,6 +40,7 @@ export default () => (
             <li>Process Improvement</li>
             <li>Project Management </li>
             <li>Product Management</li>
+            <li>Meeting Deadlines</li>
           </ul>
         </BoxRight>
       </BoxContainer>
