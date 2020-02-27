@@ -1,5 +1,17 @@
 import styled from "styled-components";
 
+export const SVGContainer = styled.div`
+overflow-x: hidden;
+svg {
+  display: flex;
+  height: auto;
+  width: 1300px;
+  margin-left auto;
+  margin-right: auto;
+
+}
+`;
+
 export const Root = styled.div`
   -webkit-box-flex: 1;
   flex-grow: 1;
